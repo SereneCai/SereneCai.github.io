@@ -4,6 +4,8 @@ body {
   }
   
   h1 {
+    display: block;
+    padding-top: 55px;
     text-align: center;
     font-style: italic;
     color: #373fff;
@@ -19,10 +21,15 @@ body {
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+    
   }
   
   p {
+    display: block;
+    line-height: 1.6;
     font-family: 'Itim', cursive;
     color: black;
     text-align: center;
   }
+
+  
