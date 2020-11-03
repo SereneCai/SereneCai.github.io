@@ -8,3 +8,7 @@ body {
     color: #373fff;
   }
   
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+  }
