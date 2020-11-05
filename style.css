@@ -1,6 +1,7 @@
 body {
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
+    background-color: powderblue;
   }
   
   h1 {
@@ -11,10 +12,10 @@ body {
     color: #373fff;
   }
 
-  #aboutme 
+  div.aboutme 
   {
-    display: block;
-    padding-top: 10px;
+    padding: 10px;
+    border: black 1px;
   }
 
   #cat1 
