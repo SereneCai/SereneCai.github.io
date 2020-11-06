@@ -44,3 +44,15 @@ body {
     --animate-duration: 2s;
   }
   
+  table, td, tr, th
+  {
+    border: black 5px solid;
+    word-spacing: 20px;
+  }
+
+  form {
+    border: black 1px solid;
+    text-align: right;
+  }
+
+ 
