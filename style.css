@@ -116,13 +116,15 @@ li {
 }
 
 #flex-container {
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
-  background-color: DodgerBlue;
+  background-color: rgb(139, 183, 226);
   justify-content: center;
+  margin-bottom: 10px;
 }
 
-#flex-container > div {
+#flex-container > div 
+{
   background-color: #f1f1f1;
   width: 100px;
   line-height: 75px;
@@ -145,4 +147,59 @@ li {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
+}
+
+#row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#small-about-me
+{
+  flex: 25%;
+  background-color: rgb(139, 183, 226);
+  
+}
+  
+#title-page
+{
+  flex: 70%;
+  margin: 5px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
