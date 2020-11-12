@@ -1,0 +1,43 @@
+body
+{
+    font-family: Arial;
+    margin: 0;
+}
+/* Column container */
+
+#container {  
+    display: flex;
+
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .image-holder {
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .price-and-des {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .story
+  {
+    padding: 10px;
+    
+  }
+  
+
+.red
+{
+    color: red;
+}
+
+.button
+{
+  padding: 20px;
+}
