@@ -118,9 +118,9 @@ li {
 #flex-container {
   display: flex; 
   flex-wrap: wrap;
-  background-color: rgb(139, 183, 226);
   justify-content: center;
   margin-bottom: 10px;
+  background-color: rgb(233, 229, 229, 0.5);
 }
 
 #flex-container > div 
@@ -153,19 +153,38 @@ li {
 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 #small-about-me
 {
   flex: 25%;
-  background-color: rgb(139, 183, 226);
+  background-color: rgb(233, 229, 229, 0.8);
+  background: url("https://images.unsplash.com/photo-1601120101861-8aea454f803f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") no-repeat right;
     
 }
   
 #title-page 
 {
   flex: 70%;
-  margin: 5px;
+  margin-left: 5px;
+  overflow: scroll;
+  height: 500px;
+  background-color: rgb(233, 229, 229, 0.5);
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#title-page > p
+{
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 
 .container {
@@ -183,14 +202,14 @@ li {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: whitesmoke;
 }
 
 .container:hover .overlay {
-  opacity: 1;
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
+  opacity: 0.9;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 .text {
@@ -203,6 +222,7 @@ li {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nature
@@ -212,10 +232,12 @@ li {
     margin-right: auto;
     border: 1px solid #ddd;
     border-radius: 50px;
+    width: 100px;
   }
   
   h2{
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .butterfly
@@ -229,6 +251,16 @@ li {
 
   }
 
+  #flexbow-logo
+  {
+    flex: 30%
+  }
+
+  #flexbox-nav-bar 
+  {
+    flex: 70%
+  }
+
   #flexbox-nav-bar > ul >li
 {
    display: inline-flex;
@@ -236,10 +268,8 @@ li {
   
 }
 
-.headline >h1 {
-  display: block;
-  padding-top: 150px;
-  text-align: center;
+.headline > h1 
+{
   font-style: italic;
   color: #373fff;
 }
@@ -250,14 +280,30 @@ li {
   font-style: italic;
 }
 
-.tab-pic-boxes
+#exTwo
 {
-  display: block;
-  margin-top: 20%;
+  background: url("https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat right;
 }
 
-#background-image
+#social-media
 {
-  background-image: url('https://images.unsplash.com/photo-1604238375957-2fa7912704ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2016&q=80');
-  
+  display: flex;
+  justify-content: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: transparent;
+  color: rgb(154, 189, 230);
+}
+
+.fa:hover
+{
+  background: transparent;
+  color: rgb(20, 18, 18);
 }
