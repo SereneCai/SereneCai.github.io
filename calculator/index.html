@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id = "cal-body"> 
+
+        <!--Input screen-->
+        <div id = "layout">
+
+        <div class = "showcase">
+            <p id = "input" onkeypress="kevent(kpress)"></p>
+        </div>
+
+        <!--first row + 1 2 3-->
+        
+
+        <div id = "first-row">
+            <button id="frplus" value = "+" onclick="inputvalue('+')">+</button> <!--button, flexbox-->
+            <button id="fr1" value = "1" onclick="inputvalue('1')" >1</button> 
+            <button id="fr2" value = "2" onclick="inputvalue('2')">2</button> 
+            <button id="fr3" value = "3" onclick="inputvalue('3')">3</button> 
+        </div>
+
+        <!--second row - 4 5 6-->
+
+        <div id = "second-row">
+            <button id="srminus" value = "-" onclick="inputvalue('-')">-</button> <!--button, flexbox-->
+            <button id="sr4" value = "4" onclick="inputvalue('4')">4</button> 
+            <button id="fr5" value = "5" onclick="inputvalue('5')">5</button> 
+            <button id="fr6" value = "6" onclick="inputvalue('6')">6</button> 
+
+        </div>
+
+        <!--third row / 7 8 9-->
+
+        <div id = "third-row">
+            <button id="trdivide" value = "/" onclick="inputvalue('/')">/</button> <!--button, flexbox-->
+            <button id="tr7" value = "7" onclick="inputvalue('7')">7</button> 
+            <button id="tr8" value = "8" onclick="inputvalue('8')">8</button> 
+            <button id="tr9" value = "9" onclick="inputvalue('9')">9</button> 
+
+        </div>
+
+        <!--fourth row * . 0 C-->
+
+        <div id = "fourth-row">
+            <button id="f4rmultiple" value = "*" onclick="inputvalue('*')">*</button> <!--button, flexbox-->
+            <button id="f4rdot" value = "." onclick="inputvalue('.')">.</button> 
+            <button id="f4r0" value = "0" onclick="inputvalue('0')">0</button> 
+            <button id="f4requal" value = "equal" onclick="solution()">=</button>
+            <button id="f4rcancel" value = "cancel" onclick="cancel()">C</button>
+        </div>
+
+        <!--end-->
+        </div>
+        
+        <script src="cal.js" async defer></script>
+    </body>
+</html>

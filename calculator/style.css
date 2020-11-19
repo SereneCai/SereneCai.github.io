@@ -1,0 +1,52 @@
+#cal-body
+{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+#layout
+{
+    border: 5px solid black;
+    padding: 15px;
+    padding-top: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: aquamarine;
+   
+    
+}
+
+#input
+{
+    background-color: grey;
+    border: 5px solid black;
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    overflow: auto;
+    font-size: 30px;
+}
+
+#first-row, #second-row, #third-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+
+button
+{
+    font-size: 30px;
+    width: 25%;
+    border-radius: 5px;
+}
+
+#fourth-row > button
+{
+    font-size: 30px;
+    width: auto;
+}
