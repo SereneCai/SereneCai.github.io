@@ -33,4 +33,4 @@ function solution()
         document.getElementById("input").innerHTML = num;
     }
 
-    
+    // textFit(document.querySelector("p"));
