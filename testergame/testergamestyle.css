@@ -10,7 +10,7 @@
 {
     height: 50px;
     width: 50px;
-    background-color: blue;
+    /* background-color: blue; */
     position: relative;
     top: 150px;
     /* animation: jump 500ms; */

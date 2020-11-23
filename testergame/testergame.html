@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="testergamestyle.css">
-    </head>
-    <body onclick= "jump()">
-        <div id = "game">
 
-            <div id = "character"> <img src = "data:image/png;base64,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" class = "pic-resize"></div>
-            <div id = "obstacle">></div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="testergamestyle.css">
+</head>
+
+<body onclick="jump()">
+    <div id="game">
+
+        <div id="character"> <img
+                src="dino.png"
+                class="pic-resize"></div>
+        <div id="obstacle"></div>
 
 
-        </div>
-        
-        <script src="testergamescript.js" async defer></script>
-    </body>
+    </div>
+
+    <script src="testergamescript.js" async defer></script>
+</body>
+
 </html>
