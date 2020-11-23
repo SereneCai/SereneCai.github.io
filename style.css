@@ -316,3 +316,20 @@ li {
   background: transparent;
   color: rgb(20, 18, 18);
 }
+
+.flexpara
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+label
+{
+  text-decoration: underline;
+}
+
+.flexpara > div
+{
+  width: 25%;
+  height: auto;
+}
