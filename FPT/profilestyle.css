@@ -1,0 +1,37 @@
+.imgresize
+{
+    width: 168px;
+    height: 32px;
+}
+
+.displaypic
+{
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+.bgpic
+{
+        width: 100%;
+        height: 150px;
+        background-color: red;
+}
+
+.custom-padding {
+   padding: 5px;
+    display: flex;
+    float: left;
+    
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.shiftarea
+{
+    display: block;
+    padding-left: 50%;
+}

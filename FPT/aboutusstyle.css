@@ -1,0 +1,16 @@
+.central-content
+{
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.padding-around
+{
+    padding-bottom: 50px;
+}
+
+.animate__animated.animate__pulse {
+    --animate-duration: 2s;
+  }
+  

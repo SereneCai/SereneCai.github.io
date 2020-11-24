@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ecommencestyle.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="container padding-around">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">E-commence Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Sale Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html#contactPage">Contact Us</a>
+                    </li>
+                    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class= "btn-padding">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </div>
+                    <button type="button" class="btn btn-info">Sell</button>
+                </form>
+            </div>
+        </nav>
+
+    </div>
+
+    <!--caurosell of images-->
+
+    <div class="container padding-around">
+        <div class="row">
+            <div id="left" class="col-8">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Carousel/sg_no1111salecars_spc_m_(1500,_610).png.jpeg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Carousel/sg_apple-wk46_spc-m_(1500,_610).png.jpeg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Carousel/sg_holiday-wk46_spc-m_(1500,_610).png.jpeg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Carousel/SG_property_m_(1500,_610).png.jpeg" class="d-block w-100">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div id="right" class="col-2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGMg8RXIx-0vJUsvEbh0atvLwmZpuIKlS_mQ&usqp=CAU" width="40px" height="40px">
+                <p>Sell in a snap,<br>
+                    buy with a chat.
+                </p>
+                <img src="img/marketing/app-store-77b3b473cb2c3416ea75cb4093458f6d.svg" width="100"><br>
+                <img src="img/marketing/play-store-b4ed670ad8ef426b0bd68160fdfb575b.svg" width="100"><br>
+                <br>
+                <button type="button" class="btn btn-outline-secondary">Download via SMS</button>
+            </div>
+            <div id="right" class="col-2">
+                <img class="img-fluid" src="img/marketing/home-app-banner-67547b16c2f068f5ae0870cd39b22c51.jpg"><br>
+            </div>
+        </div>
+    </div>
+
+    <!--Banner-->
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Weekly Picks</h1>
+                <p class="lead">Take a look at the latest deal
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--items of the week-->
+    <div class="container">
+        <div class="row card-padding">
+
+            <div class="card" style="width: 18rem;">
+                <img src="img/explore carousell/56-Food___Drinks-cxxhdpi_1579663952.53.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+
+            
+              <div class="card" style="width: 18rem;">
+                <img src="img/explore carousell/56-Furniture-cxxhdpi_1579663957.82.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+
+            
+              <div class="card" style="width: 18rem;">
+                <img src="img/explore carousell/56-mobile_phones_tablets-cxxhdpi_1579664011.0.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+              </div>
+
+        </div>
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.padding-around
+{
+    padding-bottom: 50px;
+}
+
+.card-padding
+{
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.btn-padding
+{
+    display: block;
+    position: relative;
+    margin-left: 50px;
+    
+}
