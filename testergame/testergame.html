@@ -10,15 +10,21 @@
     <link rel="stylesheet" href="testergamestyle.css">
 </head>
 
-<body onclick="jump()">
+<body id="countClicks" onclick="jump(); scoreCount()">
     <div id="game">
 
         <div id="character"> <img
                 src="dino.png"
                 class="pic-resize"></div>
         <div id="obstacle"></div>
+        
 
 
+    </div>
+
+    <div>
+        <h2>The Score is: </h2>
+        <h2 id = "score"></h2>
     </div>
 
     <script src="testergamescript.js" async defer></script>
