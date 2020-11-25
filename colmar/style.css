@@ -1,0 +1,270 @@
+.banner-resize-container
+{
+    width: 60%;
+    height : auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.center-heading
+{
+    text-align: center;
+}
+
+.resize-font
+{
+    font-size: 16px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+
+.btn-xl
+
+{
+    width: 70%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.display-4
+{
+    padding-bottom: 24px;
+}
+    
+.btn-center
+{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.lead
+{
+    padding: 24px;
+}
+
+.side-padding
+{
+    padding: 24px;
+}
+
+.bold-heading
+{
+    font-weight: 700px;
+}
+
+.content-limit
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-fluid-size
+{
+    display: block;
+    width: 150px;
+    height: auto;
+    padding: 16px;
+}
+
+.card-resize
+{
+    width: 100%;
+}
+
+.footer
+{
+    padding-bottom: 32px;
+}
+
+.multi-cards-center
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+
+}
+
+.multi-cards-2nd-row
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    padding-top: 0px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.card
+{
+    margin: 16px;
+}
+
+.footer-lines
+{
+    border-top: 1px solid black;
+}
+
+.footer-size
+{
+    padding-top: 16px;
+    padding-left: 24px;
+}
+
+.h2-padding
+{
+    padding-top: 32px;
+    padding-bottom: 24px;
+
+}
+
+nav.mobile, nav.mobile ul
+{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .logo{
+      display: none;
+    }
+  
+    nav.mobile, nav.mobile ul {
+      display: inline-flex;
+      justify-content: space-around;
+      width: 100%;
+      list-style-type: none;
+  
+    }
+  
+  }
+
+  @media only screen and (max-width: 768px) {
+    .banner {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .banner-img {
+      width: 100%;
+      height: 180px;
+      background-image: url(capstone_colmar_assets/capstone_colmar_assets/images/banner.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0px 0px 0px 0px;
+    }
+  
+    .banner-img img {
+      display: none;
+    }
+  
+    .banner-content {
+      margin: 32px 16px 32px 16px;
+      text-align: center;
+    }
+  
+    .display-4, .lead {
+      width: 100%;
+      margin-right: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .information {
+      justify-content: center;
+    }
+  
+    .feature-content {
+      display: none;
+    }
+  
+    .sidebar {
+      display: none;
+    }
+  
+    .sidebar.information {
+      display: none;
+    }
+  
+    .sidebar-mobile {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .sidebar-block {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+    }
+  
+    .sidebar-block img {
+      width: 90%;
+      max-width: 480px;
+      height: auto;
+    }
+  
+    .textbox {
+      width: 90%;
+      margin: 16px 16px 16px 32px;
+    }
+  
+  }
+
+ /* Thesis */
+  
+  @media only screen and (max-width: 768px) {
+
+.hide-bars
+{
+    display: none;
+}
+
+.mobile-full
+{
+    display: block;
+    margin-bottom: 16px;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+/* .video-mobile
+{
+    width: 100%;
+    height: auto;
+} */
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    
+    .hidecard
+    {
+        display:none;
+    }
+
+    .multi-cards-center 
+    {
+     padding-top: 8px;
+    }
+
+    .multi-cards-2nd-row
+    {
+    padding-top: 8px;
+    }
+
+
+  }
