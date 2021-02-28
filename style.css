@@ -196,12 +196,14 @@ li {
   font-family: 'Shadows Into Light', cursive;
 }
 
-.update-title > p{
+.update-title > p
+{
   text-align: left;
   padding-left: 50px;
 }
 
-.update-title > h5{
+.update-title > h5
+{
   text-align: left;
   padding-left: 20px;
 }
