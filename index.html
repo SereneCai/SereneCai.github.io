@@ -15,12 +15,14 @@
 
   <title>Hello! Introduction</title>
 
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  
+ <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <!-- import the webpage's stylesheet -->
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
   
   <!-- import the webpage's javascript file -->
   <script src="/script.js" defer></script>
@@ -29,107 +31,60 @@
 
 <body id="exTwo">
 
-    <div id="flex-container">
-        <div class = "container"> <!--portfolio-->
-                <img
-                src="https://images.unsplash.com/photo-1603817314565-155045a4b127?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
-                class="cute">
-                <div class="overlay">
-                        <div class="text"><a href ="portfolio.html"> Portfolio</a></div>
-                      </div>
-                </div>
-        <div class = "container"><img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkEBc1gY-uKPEWz3HyQnsdRkcNKQpsgGTDgA&usqp=CAU"
-                class="cute">
-                <div class="overlay">
-                        <div class="text"></div>
-                      </div>
-                </div>
-        
-        <div class = "container"> <!--Google search-->
-                <img src= "https://payyourintern.com/wp-content/uploads/2020/08/Google.png" class = "cute">
-                <div class="overlay">
-                        <div class="text"><a href="https://www.google.com.sg">Google</a></div>
-                      </div>
-        </div>
-
-        <div class = "container"> <!--Contact-->
-                <img
-                src="https://images.unsplash.com/photo-1604588690422-5c0c81615524?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
-                class="cute">
-                <div class="overlay">
-                        <div class="text"><a href = "mailto:scxiren@gmail.com">Email</a></div>
-                      </div>
-                </div>
-        <div class = "container"> <!--About Singapore-->
-                <img
-                src="https://images.unsplash.com/photo-1555217851-6141535bd771?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
-                class="cute"><div class="overlay">
-                        <div class="text"><a href ="ex-three.html">TheCity</a></div>
-                      </div>
-                </div>
-    </div>
-
-    <div id = "row">
-    <div id = "small-about-me"> <!--flex 30-->
-        <h2>About Me</h2>
-        <img id= "cat1"
-         src ="https://media0.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy-downsized.gif">
-        <p><ul class = "about-list"> <!--about me in list-->
-                <li>Ex-Nurse of 8 years</li>
-                <li>Aspiring software developer</li>
-                <li>A Cat-slave at free will</li>
-                </ul>
-        </p>
-    </div>
-
-    <div id = "title-page"> <!--flex 70-->
-        <h2>Projects Initiated</h2>
-        <img src = "https://images.unsplash.com/photo-1604180540768-78abbc4ab189?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" class = "nature">
-        <h3> <a href="testergame/testergame.html">Dino-over-obstacle</h3> 
-                <div class = "flexpara">
-                        <div>
-                        <ul>
-                        <label>Game Rules</label>
-                        <li>Refresh to start</li>
-                        <li>Click to Jump</li>
-                        <li>Do not let dino hit the cactus!</li>
-                        </ul>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">Serene's Little Haven</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">GitHub</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">LinkedIn</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 Projects
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
+                      </nav>
 
-                        <div>
-                        <ul>
-                        <label>Adjustment Required</label>
-                        <li>Start Button</li>
-                        <li>More obstacles</li>
-                        <li>Design/outlook</li>
-                        </ul>
-                        </div>
-                </div>
-        
-        <h3> <a href="calculator/index.html">Calculator</h3> 
-                <div class = "flexpara">
-                        <div>
-                        <ul>
-                        <label>How to Use</label>
-                        <li>Basic function of addition, minus, divide and multiplication</li>
-                
-                        </ul>
-                        </div>
-        
-                        <div>
-                        <ul>
-                        <label>Adjustment Required</label>
-                        <li>Keyboard allowed</li>
-                        <li>Pressing equal alone wouldnt give a undefined value</li>
-                        <li>Design/outlook</li>
-                        </ul>
-                        </div>
-                </div>
-        
-    </div>
+                      <div class="container flex-con">
+                              <div class ="small-about-me col-4">
+                              </div>
+                              <div class="title-page col-8">
+                                <p><i>“If an egg is broken by an outside force, life ends. If broken by an inside force, life begins. Great things always begin from the inside.” -- Jim Kwik</i></p><br>
 
-    </div>
+                                <p>I had been a nurse before knowing about the world programming through a television show. <br><br>
+
+                                        What started as mere curiosity soon grow into something more. I started learning how to code with the help of online resources such as Udemy and W3schools, as well as from friends that are in the field.<br><br>
+                                        
+                                        When SGUSS came out with a Software Development course organized by Generation, I was quick to make a decision. Experience from my job had taught me that life is too short not to take our chances (after we weigh the options of course!), and that's how I ended up here today --
+                                        
+                                        <br><br>--<strong>From nursing to coding</strong>.</p>
+                              </div>
+                      
+                      </div>
+        
+
+   
 
     <div>
             <footer id = "social-media">

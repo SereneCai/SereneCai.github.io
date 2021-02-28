@@ -34,7 +34,7 @@ body {
   p, ul {
     display: block;
     line-height: 1.6;
-    font-family: 'Itim', cursive;
+    font-family: 'Newsreader', serif;
     color: black;
     text-align: center;
   }
@@ -156,47 +156,25 @@ li {
   flex-direction: row;
 }
 
-#small-about-me
+.small-about-me
 {
-  flex: 25%;
+  margin-top: 10px;
   background-color: rgb(233, 229, 229, 0.8);
-  background: url("https://images.unsplash.com/photo-1601120101861-8aea454f803f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") no-repeat right;
+  background: url("https://images.unsplash.com/photo-1614348531934-c338408a46bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80") no-repeat right;
     
 }
   
-#title-page 
+.title-page
 {
-  flex: 70%;
-  margin-left: 5px;
+  
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 30px;
   overflow: scroll;
   height: 500px;
   background-color: rgb(233, 229, 229, 0.5);
-  padding-left: 15px;
-  padding-right: 15px;
   overflow-x: hidden;
   overflow-y: auto;
-}
-
-#title-page > h2
-{
-  text-align: left;
-  padding-left: 10%;
-  border-bottom: #000 1px solid;
-}
-
-#title-page > p
-{
-  font-size: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bolder;
-  padding: 20px;
-  text-align: justify;
-
-}
-
-.container {
-  position: relative;
-  width: 50%;
 }
 
 .overlay {
@@ -213,7 +191,8 @@ li {
   
 }
 
-.container:hover .overlay {
+.title-page:hover .overlay {
+  background-color: whitesmoke;
   opacity: 0.9;
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -259,16 +238,6 @@ li {
 
   }
 
-  #flexbow-logo
-  {
-    flex: 30%
-  }
-
-  #flexbox-nav-bar 
-  {
-    flex: 70%
-  }
-
   #flexbox-nav-bar > ul >li
 {
    display: inline-flex;
@@ -290,8 +259,7 @@ li {
 
 #exTwo
 {
-  background: url("https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat right;
-
+  background: url('https://images.unsplash.com/photo-1614347415938-45db946f49a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat;
 }
 
 #social-media
@@ -335,3 +303,7 @@ label
   
 }
 
+.flex-con{
+  display: flex;
+  flex-direction: row;
+}
