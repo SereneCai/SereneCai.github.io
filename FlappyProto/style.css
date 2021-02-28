@@ -50,3 +50,9 @@ body{
     top: 100px;
     border-radius: 50%;
 }
+
+.text{
+    display: block;
+    margin-top: 300px;
+    margin-left: 100px;
+}
