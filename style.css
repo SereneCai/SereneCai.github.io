@@ -174,7 +174,11 @@ li {
   height: 500px;
   background-color: rgb(233, 229, 229, 0.5);
   overflow-x: hidden;
-  overflow-y: auto;
+ 
+}
+
+.title-page::-webkit-scrollbar {
+  display: none;
 }
 
 .overlay {
